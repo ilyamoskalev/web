@@ -1,0 +1,72 @@
+/*body {*/
+    /*margin: 0 0;*/
+    /*background: #F8F8FF;*/
+    /*font-family: Arial, sans-serif;*/
+/*}*/
+
+.mynavbar {
+    background: #4682B4;
+}
+
+
+.mylogo {
+    width: 150px;
+    height: 90px;
+    margin-top: -20px;
+    margin-bottom: -12px;
+}
+
+.myfont {
+    color: white;
+    font-family: Fixed, monospace;
+    font-size: xx-large;
+    margin-top: 1px;
+}
+
+.mysearch {
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 9px;
+    width: 300px;
+    height: 32px;
+}
+
+.myavatar {
+    width: 45px;
+    height: 45px;
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+.myuser {
+    width: 100px;
+    height: 45px;
+    margin-left: 50px;
+    display: block;
+}
+
+.user {
+    margin-left: 10px;
+    color: black;
+}
+
+.bestmembers {
+    font-family: Gill Sans, sans-serif;
+    font-size: x-large;
+}
+
+.Tag1 {
+    font-size: xx-large;
+    color: #FF0000;
+}
+
+.Tag2 {
+    font-size: x-large;
+    color: #00FF00;
+}
+
+.Tag3 {
+    font-size: large;
+    color: #0000FF;
+}
+
