@@ -1,0 +1,32 @@
+{% extends "base.html"%}
+
+{% block title %} Задать вопрос {% endblock %}
+
+{% block content %}
+<div class="subheader">
+    <h1>New Question</h1>
+</div>
+<form class="forms" style="margin-top: 40px">
+    <div class="form-group row">
+        <label for="titleInput" class="col-sm-1 col-form-label">Title</label>
+        <div class="col-sm-11">
+            <input type="text" class="form-control" id="titleInput" placeholder="Be specific">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="TextInput" class="col-sm-1 col-form-label">Text</label>
+        <div class="col-sm-11">
+            <textarea class="form-control" id="TextInput" placeholder="Tell us about your problem" rows="12"></textarea>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="TagsInput" class="col-sm-1 col-form-label">Tags</label>
+        <div class="col-sm-11">
+            <input type="text" class="form-control" id="TagsInput" placeholder="at least 1 tag">
+        </div>
+    </div>
+    <div style="margin-left: 75px;">
+        <button class="btn btnlog">Ask!</button>
+    </div>
+</form>
+{% endblock %}

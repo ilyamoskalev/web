@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Techno ask</title>
+    <link href="../Static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Static/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class>
+
+<div class="navbar navbar-default mynavbar ">
+    <div class="container">
+        <nav class="navbar-form ">
+            <img src="../Static/img/tp.png" class="navbar-brand mylogo">
+            <a class="navbar-header myfont" href="#">Techno Ask</a>
+            <input type="text" class="navbar-text mysearch" placeholder="Search">
+            <button type="submit" class="btn btn-default navbar-btn">ASK!</button>
+            <a class="sign" href="#">SignIn</a>
+            <a class="user" href="#">SignUp</a>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-9 ">
+            <div class="subheader">
+                <h1>Settings</h1>
+            </div>
+            <form class="form-group" style="margin-top: 40px">
+                <div class="form-group row has-warning">
+                    <label for="LoginInput" class="col-sm-2 col-form-label">Login</label>
+                    <div class="col-sm-10">
+                        <div><input  class="form-control logForms" id="LoginInput" placeholder="Enter your login "></div>
+                        <div class="attention">Login reserved</div>
+                    </div>
+                </div>
+                <div class="form-group row has-warning">
+                    <label for="emailinput" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control logForms"  id="EmailInput" placeholder="Enter your email">
+                        <div class="attention">Sorry, wrong email!</div>
+                    </div>
+                </div>
+                <div class="form-group row has-warning">
+                    <label for="nickinput" class="col-sm-2 col-form-label">Nickname</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control logForms"  id="NickInput" placeholder="Enter your nickname">
+                        <div class="attention">Nickname reserved</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleInputFile" class="col-sm-2 col-form-label">Upload avatar</label>
+                    <div class="col-sm-10">
+                        <img src="../Static/img/user.png" >
+                        <input style="margin-top: 20px" type="file" class="form-control-file logForms" id="exampleInputFile" aria-describedby="fileHelp">
+                    </div>
+                </div>
+
+            </form>
+            <div style="margin-left: 145px;">
+                <button class="btn btnlog">Submit</button>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div>
+                <h2>Popular tags</h2>
+                <ol class="list-unstyled bestmembers">
+                    <li><a class="Tag1" href="#">Tag1</a></li>
+                    <li><a class="Tag2" href="#">Tag2</a></li>
+                    <li><a class="Tag3" href="#">Tag3</a></li>
+
+                </ol>
+
+            </div>
+            <div class="sidebar-module">
+                <h2>Best members</h2>
+                <ol class="list-unstyled bestmembers">
+                    <li><a href="#">Username1</a></li>
+                    <li><a href="#">Username2</a></li>
+                    <li><a href="#">Username3</a></li>
+                    <li><a href="#">Username4</a></li>
+                    <li><a href="#">Username5</a></li>
+                    <li><a href="#">Username6</a></li>
+                    <li><a href="#">Username7</a></li>
+                    <li><a href="#">Username8</a></li>
+                    <li><a href="#">Username9</a></li>
+                    <li><a href="#">Username10</a></li>
+                </ol>
+            </div>
+            <div class="sidebar-module">
+                <h2>Elsewhere</h2>
+                <ol class="list-unstyled">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="modal-footer">
+    <p>All rights reserved © 2017</p>
+</div>
+
+</body>
+</html>
